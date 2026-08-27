@@ -1,0 +1,20 @@
+.venv/
+.venv-landmarks/
+__pycache__/
+*.py[cod]
+
+# Personal training data and generated models
+landmark_data*.csv
+*.joblib
+*.keras
+*.h5
+*.pkl
+
+# Downloaded MediaPipe assets
+mediapipe_models/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
